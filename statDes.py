@@ -7,3 +7,4 @@ df = pd.DataFrame(arr)
 
 #hasil bray
 print(df.describe())
+print("Modus   :",df.mode(numeric_only=True))
